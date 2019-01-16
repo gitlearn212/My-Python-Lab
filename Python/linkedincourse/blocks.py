@@ -1,6 +1,7 @@
 
 x = 42
 y = 73
+
 if x > y:
     print(" if x < y: x is {} and y is {}" .format(x, y))
     print("X is < y line1")
