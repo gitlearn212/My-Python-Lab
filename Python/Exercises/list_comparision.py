@@ -7,7 +7,7 @@ c = []
 for x in b:
     if x in a:
         c.append(x)
-for y in range(len(c) - 1, 0, -1):
+for y in range(len(c) -1, 0, -1):
     for z in range(y):
         if c[z] > c[z + 1]:
             c[z], c[z + 1] = c[z + 1], c[z]
