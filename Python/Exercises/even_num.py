@@ -12,5 +12,5 @@ a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 for i in list((a)):
     if i % 2 == 0:
         print(i)
-b = [test for test in a if test % 2 == 0]
+b = [lis for lis in a if lis % 2 == 0]
 print(b)

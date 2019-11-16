@@ -21,8 +21,8 @@ def dedupe_v2(x):
 a = ['peter', 'peter', 'roy', 'mohan', 'ram', 'ram', 'mohan']
 b = ['jay', 'kav', 'suhh', 'anj', 'suhh', 'kav']
 print(a)
-print(dedupe_v1(a))
-print(dedupe_v2(a))
+print(" set in a in x", dedupe_v1(a))
+print(" set in a in x", dedupe_v2(a))
 print(b)
-print(dedupe_v1(b))
-print(dedupe_v2(b))
+print(" set in b in x", dedupe_v1(b))
+print(" set in b in x", dedupe_v2(b))

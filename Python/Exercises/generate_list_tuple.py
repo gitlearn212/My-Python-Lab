@@ -15,4 +15,4 @@ print('Tuple =>', tuple)
 
 # Or
 
-print(f'Tuple = {tuple(values.split(","))}\nList  = {list(values.split(","))}')
+print(f'Tuple = {tuple(values.split(","))}\nList = {list(values.split(","))}')

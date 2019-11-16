@@ -5,4 +5,4 @@ new = input('enter a name :')
 if new in list_of_enrolled_students:
     print('student already enrolled')
 else:
-    print('Student waiting to enroll')
+    print(f'Student {new} is waiting to enroll')

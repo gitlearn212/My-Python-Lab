@@ -1,5 +1,5 @@
 # write a program that accepts an integer and
-# computes the value to n+nn+nnn _n =5 ans is 625
+# computes the value to n+nn+nnn _n =5 ans is 615
 n = (int(input('Entaer an integer value: ')))
 n1 = int("%s" % (n))
 n2 = int("%s%s" % (n, n))

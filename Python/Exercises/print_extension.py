@@ -2,4 +2,5 @@
 
 filename = str(input('Enter a file name with extention: '))
 f_extention = filename.split(".")
-print(f'The extention of the file name: {filename} is {f_extention[-1]}')
+print(
+    f'The extention of the file name {filename.upper()} is: {f_extention[-1]}')

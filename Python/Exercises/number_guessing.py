@@ -13,7 +13,7 @@ while guess != number and guess != 'exit':
 
     if guess > 9 or guess < 1:
         print(
-            f' You Guessed {guess}, Guess the numbers between 1 to 9')
+            f' You Guessed {guess}, Guess a number between 1 to 9')
         continue
     elif guess > number:
         print('Guess lower')
