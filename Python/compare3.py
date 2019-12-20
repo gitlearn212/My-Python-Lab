@@ -9,5 +9,5 @@ secon=file(file2).readlines()
 for n in range(len(first)):
     lenf=len(first[n].strip())
     diff=secon[n][lenf: ].strip()
-    print diff
+    print (diff)
 
