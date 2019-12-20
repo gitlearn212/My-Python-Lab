@@ -3,12 +3,13 @@
 # # remove the numbers from the calling function
 
 
-def greet_customer(name, num_apples=10):
+# def greet_customer(name, num_apples=10):
+def greet_customer(name, num_apples):
 
-    print("Hello, " + name)
+    print("At" + name)
     print("We have " + str(num_apples) + " apples in the store")
 
 
-greet_customer("Mark")
-greet_customer("Brook")
-greet_customer("Greg")
+greet_customer(" EAST HAM ", 9)
+greet_customer(" SCOTLAND ", 7)
+greet_customer(" IRELAND ", 5)
