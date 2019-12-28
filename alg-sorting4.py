@@ -9,11 +9,10 @@ def algsorting3(data, target, low, high):
         elif target < data[mid]:
             return algsorting3(data, target, low, mid-1)
         else:
-            return algsorting3(data, target, high, mid+1)
+            return algsorting3(data, target, high, mid+1)#, high)
             
     return False      
     
 data =[16,18,22,25,31,33,38,40]
 target = 16
 print(algsorting3(data, target, 0, len(data)-1))
-
