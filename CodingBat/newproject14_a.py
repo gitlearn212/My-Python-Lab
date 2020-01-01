@@ -38,7 +38,10 @@ def front3(str):
     pass
   return str[:frontend]*3
 
-print(front3('Java'))# → 'JavJavJav'
-print(front3('Chocolate'))# → 'ChoChoCho'
-print(front3('abc'))# → 'abcabcabc'
-    
+print(front3('Java'))# → 'JavJavJav'	'JavJavJav'	OK	
+print(front3('Chocolate'))# → 'ChoChoCho'	'ChoChoCho'	OK	
+print(front3('abc'))# → 'abcabcabc'	'abcabcabc'	OK	
+print(front3('abcXYZ'))# → 'abcabcabc'	'abcabcabc'	OK	
+print(front3('ab'))# → 'ababab'	'ababab'	OK	
+print(front3('a'))# → 'aaa'	'aaa'	OK	
+print(front3(''))# → ''	''	OK	
