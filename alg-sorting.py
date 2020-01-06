@@ -8,8 +8,9 @@ def algsorting(data, target):
             return True
         elif target < data[mid]:
             high = mid - 1
+            
         else:
-            low = mid + 1
+             low = mid + 1
     return False      
 
 data =[16,18,22,25,31,33,38,40]

@@ -9,6 +9,7 @@ def algsorting2(data, target, low, high):
             return algsorting2(data, target, low, mid-1)
         else:
             return algsorting2(data, target, high, mid + 1)
+    return False
 
 
 data = [16, 18, 22, 25, 31, 33, 38, 40]

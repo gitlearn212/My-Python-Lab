@@ -2,5 +2,5 @@
 import calendar
 yr = int(input('enter a year: '))
 mnth = int(input('enter a month: '))
-# dt = int(input('enter a date : '))
+#dt = int(input('enter a date : '))
 print(calendar.month(yr, mnth))
