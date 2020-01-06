@@ -7,6 +7,7 @@ def Insertation_Sort(my_list):
             my_list[pos] = my_list[pos-1]
             pos = pos-1
         my_list[pos] = current_element
+        
 list1 = [23,2,12,1,56,4]
 Insertation_Sort(list1)
 print(list1)

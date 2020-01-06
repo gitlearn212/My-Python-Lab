@@ -1,0 +1,6 @@
+list1 = list()
+list1.append([[1,[2,3]],[4,5]])
+list1.append([[5,6,7],[10,11,12]])
+list1.extend([13,[14,15]])
+print(list1)
+print(list1[0][1][1]+list1[1][1][0]+list1[2]+list1[3][1])

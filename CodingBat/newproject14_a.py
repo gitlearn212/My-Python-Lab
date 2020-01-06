@@ -25,18 +25,19 @@ print(''' =========THE CODE FOR THE PROBLEM==========
     pass
   return str[:frontend]*3
 
-print(front3('Java'))# → 'JavJavJav'
-print(front3('Chocolate'))# → 'ChoChoCho'
-print(front3('abc'))# → 'abcabcabc'
-============== END ===========
-
-''')
+==== OR THE FOLLOWING CODE ALSO WILL WORK =======
 
 def front3(str):
   frontend = 3 
   if len(str)< frontend:
-    pass
+    # == OR ==
+    
+  #if len(str)> frontend:
+    return str[:frontend]*3
+    # ==OR pass==
+      #pass
   return str[:frontend]*3
+
 
 print(front3('Java'))# → 'JavJavJav'	'JavJavJav'	OK	
 print(front3('Chocolate'))# → 'ChoChoCho'	'ChoChoCho'	OK	
@@ -44,4 +45,30 @@ print(front3('abc'))# → 'abcabcabc'	'abcabcabc'	OK
 print(front3('abcXYZ'))# → 'abcabcabc'	'abcabcabc'	OK	
 print(front3('ab'))# → 'ababab'	'ababab'	OK	
 print(front3('a'))# → 'aaa'	'aaa'	OK	
-print(front3(''))# → ''	''	OK	
+print(front3(','))# → ''	''	OK	
+
+
+============== END ===========
+
+''')
+
+def front3(str):
+  frontend = 3 
+  #if len(str)< frontend:
+    #pass
+  #return str[:frontend]*3  
+    # ==or ==
+  if len(str)> frontend:
+      pass #OR return str[:frontend]*3
+  return str[:frontend]*3
+  
+      
+  
+
+print(front3('Java'))# → 'JavJavJav'	'JavJavJav'	OK	
+print(front3('Chocolate'))# → 'ChoChoCho'	'ChoChoCho'	OK	
+print(front3('abc'))# → 'abcabcabc'	'abcabcabc'	OK	
+print(front3('abcXYZ'))# → 'abcabcabc'	'abcabcabc'	OK	
+print(front3('ab'))# → 'ababab'	'ababab'	OK	
+print(front3('a'))# → 'aaa'	'aaa'	OK	
+print(front3(','))# → ''	''	OK	
