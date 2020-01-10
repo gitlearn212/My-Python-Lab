@@ -1,13 +1,14 @@
 
 def insertation_sort(list1):
-    for index in range(1,len(list1)):
+    for index in range(1, len(list1)):
         temp = list1[index]
         while temp < list1[index-1] and index > 0:
             list1[index] = list1[index-1]
             index = index-1
         list1[index] = temp
-        
-list1 = [32, 5, 1, 64, 3]
+
+
+list1 = [32, 5, 1, 64, 3, 3, 10009, 234, 56, 9909099, 4356]
 insertation_sort(list1)
 print(list1)
 
